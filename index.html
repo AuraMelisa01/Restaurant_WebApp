@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class=" col-xs-12 col-md-12 navbar navbar-dark bg-dark">
         <img src="src/images/melp.png" alt="MELP" class="img-responsive" style="width:30%">
         <form class="form-inline">
             <div class="col-xs-6">
@@ -26,12 +26,18 @@
             </div>
         </form>
     </nav>
-    <div class="row">
+    <div class="row row-date">
         <div class="col-xs-1 col-md-1"></div>
         <div class="col-xs-10 col-md-10 color">
-            <div class="btn-all">
-                <button type="button" class="btn btn-secondary btn-lg btn-block">VIEW ALL RESTAURANTS</button>
+            <div class="title_img" id="title">  
+                <h1> ¡The best to pamper your palate!</h1>
+                <p> Welcome to the site that recommends the best restaurants. </p>
+                <img src="https://i.pinimg.com/originals/50/3f/54/503f548f466fde13396152f168295781.jpg" alt="" class="img-responsive">
             </div>
+            <div class="btn-all">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block" id="btnAll">VIEW ALL
+                        RESTAURANTS</button>
+                </div>
             <div class="card" id="cards">
 
             </div>
@@ -43,6 +49,15 @@
 
 
     <script src="src/js/main.js" async defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
