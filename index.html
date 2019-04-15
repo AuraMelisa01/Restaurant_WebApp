@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-      
-        
-        <script src="" async defer></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <img src="src/images/melp.png" alt="MELP" class="img-responsive" style="width:30%">
+        <form class="form-inline">
+            <div class="col-xs-6">
+                <input class="form-control mr-sm-2" type="search" placeholder="¿Search Restaurant?" aria-label="Search"
+                    id="search">
+            </div>
+            <div class="col-xs-6">
+                <button class="btn btn-danger my-2 my-sm-0" type="button" id="btnBuscar">Search</button>
+            </div>
+        </form>
+    </nav>
+    <div class="row">
+        <div class="col-xs-1 col-md-1"></div>
+        <div class="col-xs-10 col-md-10 color">
+            <div class="btn-all">
+                <button type="button" class="btn btn-secondary btn-lg btn-block">VIEW ALL RESTAURANTS</button>
+            </div>
+            <div class="card" id="cards">
+
+            </div>
+
+        </div>
+        <div class="col-xs-1 col-md-1"></div>
+    </div>
+
+
+
+    <script src="src/js/main.js" async defer></script>
+</body>
+
 </html>
